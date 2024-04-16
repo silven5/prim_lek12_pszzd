@@ -1,0 +1,53 @@
+// @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Caveat&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Caveat&display=swap');
+
+$body-color: #d9dbf5;
+$input-color: #01031d;
+$font-size: 3vh;
+
+h2 {
+    font-family: 'Caveat', cursive;
+    color: $body-color;
+    //font-family: 'Benne', serif;
+}
+
+.body {
+    background: linear-gradient(60deg, rgb(41, 29, 90) 0%, rgb(3, 84, 95) 100%);
+    color: $body-color;
+    font-size: $font-size;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    color: $body-color;
+    //font-family: 'Benne', serif;
+}
+
+.card {
+    background: linear-gradient(60deg, rgb(29, 51, 90) 0%, rgb(3, 84, 95) 100%);
+    color: $body-color;
+    font-size: $font-size;
+    width:30%;
+   // height: 200px;
+    border-radius: 10px;
+    min-width:200px;
+    max-height: 300px;
+}
+
+.card_body__font {
+    font-family: 'Benne', serif;
+    font-size: $font-size;
+}
+
+.card_title__font {
+    font-family: 'Caveat', cursive;
+    font-size: $font-size*1.5;
+}
+
+input {
+    color: $body-color;
+}
+
+
+
